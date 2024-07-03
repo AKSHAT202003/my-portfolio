@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import flight from '../../assets/flight.png';
 import k from '../../assets/kuber.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import oqa from '../../assets/q.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -21,6 +20,12 @@ function Projects() {
           link="https://github.com/AKSHAT202003/Load-balancing-using-kubernetes"
           h3="Load balancing using kubernetes"
           p="Load balancing by nginx"
+        />
+        <ProjectCard
+          src={oqa}
+          link="https://github.com/AKSHAT202003/Load-balancing-using-kubernetes"
+          h3="Online quiz app"
+          p="A web app"
         />
       </div>
     </section>
